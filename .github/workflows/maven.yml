@@ -1,0 +1,38 @@
+
+name: CI - Cucumber Selenium Login
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up JDK
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+          cache: 'maven'
+      - name: Run tests
+        run: mvn -B clean test verify
+      - name: Upload Cucumber reports
+        uses: actions/upload-artifact@v4
+        with:
+          name: cucumber-reports
+          path: |
+            target/cucumber-report.html
+            target/cucumber.json
+            target/cucumber-html-reports/**
+
+- name: Generate Allure report
+  run: mvn -B allure:report
+- name: Upload Allure report
+  uses: actions/upload-artifact@v4
+  with:
+    name: allure-report
+    path: target/site/allure-maven-plugin/**
