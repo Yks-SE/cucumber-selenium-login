@@ -1,4 +1,3 @@
-
 package com.example.steps;
 
 import com.example.pages.LoginPage;
@@ -7,6 +6,7 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.jupiter.api.Assertions;
+import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 
 import java.util.List;
@@ -41,8 +41,8 @@ public class DataDrivenSteps {
 
             String expected = row.get("expected");
             if ("success".equalsIgnoreCase(expected)) {
-                Assertions.assertTrue(loginPage.isInSecureArea(),
-                        "Expected success for row: " + row);
+            Assertions.assertTrue(loginPage.isInSecureArea(),
+                "Expected to be in Secure Area but wasn't. Flash message: " + loginPage.getFlashMessage());
             } else if ((username == null || username.isEmpty()) || (password == null || password.isEmpty())) {
                 // Check required field validation messages or that user remains on login page
                 String usernameMsg = loginPage.getUsernameValidationMessage();

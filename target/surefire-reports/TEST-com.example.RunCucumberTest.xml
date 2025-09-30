@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.RunCucumberTest" time="95.522" tests="7" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.RunCucumberTest" time="102.573" tests="7" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="webdriver.chrome.driver" value="C:\Users\bhanu\.cache\selenium\chromedriver\win64\140.0.7339.207\chromedriver.exe"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
-    <property name="sun.java.command" value="C:\Users\bhanu\AppData\Local\Temp\surefire18353187182537768124\surefirebooter-20250930064249500_3.jar C:\Users\bhanu\AppData\Local\Temp\surefire18353187182537768124 2025-09-30T06-42-49_392-jvmRun1 surefire-20250930064249500_1tmp surefire_0-20250930064249500_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\bhanu\AppData\Local\Temp\surefire17227840436479123264\surefirebooter-20250930073831733_3.jar C:\Users\bhanu\AppData\Local\Temp\surefire17227840436479123264 2025-09-30T07-38-31_592-jvmRun1 surefire-20250930073831733_1tmp surefire_0-20250930073831733_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\bhanu\Yuva\Projects\GAI Projects\cucumber-selenium-login-final\target\test-classes;C:\Users\bhanu\Yuva\Projects\GAI Projects\cucumber-selenium-login-final\target\classes;C:\Users\bhanu\.m2\repository\io\cucumber\cucumber-java\7.14.0\cucumber-java-7.14.0.jar;C:\Users\bhanu\.m2\repository\io\cucumber\cucumber-core\7.14.0\cucumber-core-7.14.0.jar;C:\Users\bhanu\.m2\repository\io\cucumber\cucumber-gherkin\7.14.0\cucumber-gherkin-7.14.0.jar;C:\Users\bhanu\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.14.0\cucumber-gherkin-messages-7.14.0.jar;C:\Users\bhanu\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\bhanu\.m2\repository\io\cucumber\tag-expressions\5.0.6\tag-expressions-5.0.6.jar;C:\Users\bhanu\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\bhanu\.m2\repository\io\cucumber\datatable\7.14.0\datatable-7.14.0.jar;C:\Users\bhanu\.m2\repository\io\cucumber\cucumber-plugin\7.14.0\cucumber-plugin-7.14.0.jar;C:\Users\bhanu\.m2\repository\io\cucumber\docstring\7.14.0\docstring-7.14.0.jar;C:\Users\bhanu\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\bhanu\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\bhanu\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\bhanu\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\bhanu\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.14.0\cucumber-junit-platform-engine-7.14.0.jar;C:\Users\bhanu\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar;C:\Users\bhanu\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\bhanu\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\bhanu\.m2\repository\io\cucumber\cucumber-picocontainer\7.14.0\cucumber-picocontainer-7.14.0.jar;C:\Users\bhanu\.m2\repository\org\picocontainer\picocontainer\2.15\picocontainer-2.15.jar;C:\Users\bhanu\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\bhanu\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\bhanu\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\bhanu\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\bhanu\.m2\repository\org\junit\platform\junit-platform-suite\1.10.2\junit-platform-suite-1.10.2.jar;C:\Users\bhanu\.m2\repository\org\junit\platform\junit-platform-suite-api\1.10.2\junit-platform-suite-api-1.10.2.jar;C:\Users\bhanu\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.10.2\junit-platform-suite-engine-1.10.2.jar;C:\Users\bhanu\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.10.2\junit-platform-suite-commons-1.10.2.jar;C:\Users\bhanu\.m2\repository\org\junit\platform\junit-platform-launcher\1.10.2\junit-platform-launcher-1.10.2.jar;C:\Users\bhanu\.m2\repository\org\seleniumhq\selenium\selenium-java\4.20.0\selenium-java-4.20.0.jar;C:\Users\bhanu\.m2\repository\org\seleniumhq\selenium\selenium-api\4.20.0\selenium-api-4.20.0.jar;C:\Users\bhanu\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.20.0\selenium-chrome-driver-4.20.0.jar;C:\Users\bhanu\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\bhanu\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.20.0\selenium-chromium-driver-4.20.0.jar;C:\Users\bhanu\.m2\repository\org\seleniumhq\selenium\selenium-json\4.20.0\selenium-json-4.20.0.jar;C:\Users\bhanu\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.20.0\selenium-manager-4.20.0.jar;C:\Users\bhanu\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v122\4.20.0\selenium-devtools-v122-4.20.0.jar;C:\Users\bhanu\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v123\4.20.0\selenium-devtools-v123-4.20.0.jar;C:\Users\bhanu\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v124\4.20.0\selenium-devtools-v124-4.20.0.jar;C:\Users\bhanu\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.20.0\selenium-devtools-v85-4.20.0.jar;C:\Users\bhanu\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.20.0\selenium-edge-driver-4.20.0.jar;C:\Users\bhanu\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.20.0\selenium-firefox-driver-4.20.0.jar;C:\Users\bhanu\.m2\repository\org\seleniumhq\selenium\selenium-http\4.20.0\selenium-http-4.20.0.jar;C:\Users\bhanu\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\bhanu\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.20.0\selenium-ie-driver-4.20.0.jar;C:\Users\bhanu\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.20.0\selenium-remote-driver-4.20.0.jar;C:\Users\bhanu\.m2\repository\com\google\guava\guava\33.1.0-jre\guava-33.1.0-jre.jar;C:\Users\bhanu\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\bhanu\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\bhanu\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\bhanu\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\bhanu\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\bhanu\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\bhanu\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\bhanu\.m2\repository\io\opentelemetry\opentelemetry-api\1.37.0\opentelemetry-api-1.37.0.jar;C:\Users\bhanu\.m2\repository\io\opentelemetry\opentelemetry-context\1.37.0\opentelemetry-context-1.37.0.jar;C:\Users\bhanu\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.37.0\opentelemetry-exporter-logging-1.37.0.jar;C:\Users\bhanu\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.37.0\opentelemetry-sdk-common-1.37.0.jar;C:\Users\bhanu\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.37.0\opentelemetry-sdk-extension-autoconfigure-spi-1.37.0.jar;C:\Users\bhanu\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.37.0\opentelemetry-sdk-extension-autoconfigure-1.37.0.jar;C:\Users\bhanu\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.37.0-alpha\opentelemetry-api-incubator-1.37.0-alpha.jar;C:\Users\bhanu\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.37.0\opentelemetry-sdk-trace-1.37.0.jar;C:\Users\bhanu\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.37.0\opentelemetry-sdk-1.37.0.jar;C:\Users\bhanu\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.37.0\opentelemetry-sdk-metrics-1.37.0.jar;C:\Users\bhanu\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.37.0\opentelemetry-sdk-logs-1.37.0.jar;C:\Users\bhanu\.m2\repository\net\bytebuddy\byte-buddy\1.14.14\byte-buddy-1.14.14.jar;C:\Users\bhanu\.m2\repository\org\seleniumhq\selenium\selenium-os\4.20.0\selenium-os-4.20.0.jar;C:\Users\bhanu\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\bhanu\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.20.0\selenium-safari-driver-4.20.0.jar;C:\Users\bhanu\.m2\repository\org\seleniumhq\selenium\selenium-support\4.20.0\selenium-support-4.20.0.jar;C:\Users\bhanu\.m2\repository\io\github\bonigarcia\webdrivermanager\5.8.0\webdrivermanager-5.8.0.jar;C:\Users\bhanu\.m2\repository\org\slf4j\slf4j-api\2.0.12\slf4j-api-2.0.12.jar;C:\Users\bhanu\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\bhanu\.m2\repository\com\github\docker-java\docker-java\3.3.6\docker-java-3.3.6.jar;C:\Users\bhanu\.m2\repository\com\github\docker-java\docker-java-core\3.3.6\docker-java-core-3.3.6.jar;C:\Users\bhanu\.m2\repository\com\github\docker-java\docker-java-api\3.3.6\docker-java-api-3.3.6.jar;C:\Users\bhanu\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\bhanu\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\bhanu\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\bhanu\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\bhanu\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\bhanu\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\bhanu\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\bhanu\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.6\docker-java-transport-httpclient5-3.3.6.jar;C:\Users\bhanu\.m2\repository\com\github\docker-java\docker-java-transport\3.3.6\docker-java-transport-3.3.6.jar;C:\Users\bhanu\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\bhanu\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\bhanu\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\bhanu\.m2\repository\org\apache\commons\commons-compress\1.26.1\commons-compress-1.26.1.jar;C:\Users\bhanu\.m2\repository\commons-codec\commons-codec\1.16.1\commons-codec-1.16.1.jar;C:\Users\bhanu\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar;C:\Users\bhanu\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\bhanu\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\bhanu\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\bhanu\.m2\repository\org\apache\commons\commons-csv\1.10.0\commons-csv-1.10.0.jar;C:\Users\bhanu\.m2\repository\io\qameta\allure\allure-cucumber7-jvm\2.25.0\allure-cucumber7-jvm-2.25.0.jar;C:\Users\bhanu\.m2\repository\io\qameta\allure\allure-java-commons\2.25.0\allure-java-commons-2.25.0.jar;C:\Users\bhanu\.m2\repository\io\qameta\allure\allure-model\2.25.0\allure-model-2.25.0.jar;C:\Users\bhanu\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\bhanu\AppData\Local\Temp\surefire18353187182537768124\surefirebooter-20250930064249500_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\bhanu\AppData\Local\Temp\surefire17227840436479123264\surefirebooter-20250930073831733_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.7+8-LTS-245"/>
@@ -46,7 +46,6 @@
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\bhanu\AppData\Local\Temp\"/>
     <property name="java.version" value="21.0.7"/>
-    <property name="cucumber.filter.tags" value="@csv"/>
     <property name="user.dir" value="C:\Users\bhanu\Yuva\Projects\GAI Projects\cucumber-selenium-login-final"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
@@ -60,7 +59,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="Valid Login" classname="Login functionality - the-internet.herokuapp.com" time="8.973">
+  <testcase name="Valid Login" classname="Login functionality - the-internet.herokuapp.com" time="9.385">
     <system-out><![CDATA[
 @smoke
 Scenario: Valid Login                                                                   &amp#27;[90m# features/login.feature:8&amp#27;[0m
@@ -71,13 +70,13 @@ Scenario: Valid Login                                                           
     <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
 SLF4J(W): Defaulting to no-operation (NOP) logger implementation
 SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
-Sept 30, 2025 6:42:51 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Sept 30, 2025 7:38:34 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 140
-Sept 30, 2025 6:42:51 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Sept 30, 2025 7:38:34 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 140.0.7339.208. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.20.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="Invalid Login" classname="Login functionality - the-internet.herokuapp.com" time="14.139">
+  <testcase name="Invalid Login" classname="Login functionality - the-internet.herokuapp.com" time="9.762">
     <system-out><![CDATA[
 @smoke
 Scenario: Invalid Login                                                      &amp#27;[90m# features/login.feature:12&amp#27;[0m
@@ -85,13 +84,13 @@ Scenario: Invalid Login                                                      &am
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user enters username &amp#27;[0m&amp#27;[32m&amp#27;[1m"wrongusername"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"wrongpassword"&amp#27;[0m &amp#27;[90m# com.example.steps.LoginSteps.the_user_enters_username_and_password(java.lang.String,java.lang.String)&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32man error message &amp#27;[0m&amp#27;[32m&amp#27;[1m"Your username is invalid!"&amp#27;[0m&amp#27;[32m should be displayed&amp#27;[0m      &amp#27;[90m# com.example.steps.LoginSteps.an_error_message_should_be_displayed(java.lang.String)&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Sept 30, 2025 6:43:00 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Sept 30, 2025 7:38:42 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 140
-Sept 30, 2025 6:43:00 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Sept 30, 2025 7:38:42 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 140.0.7339.208. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.20.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="Empty Fields" classname="Login functionality - the-internet.herokuapp.com" time="8.222">
+  <testcase name="Empty Fields" classname="Login functionality - the-internet.herokuapp.com" time="16.576">
     <system-out><![CDATA[
 @smoke
 Scenario: Empty Fields                                                         &amp#27;[90m# features/login.feature:16&amp#27;[0m
@@ -99,13 +98,13 @@ Scenario: Empty Fields                                                         &
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user leaves both the username and password fields empty and submits&amp#27;[0m &amp#27;[90m# com.example.steps.LoginSteps.the_user_leaves_both_fields_empty_and_submits()&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32ma required field message should be displayed for both fields&amp#27;[0m            &amp#27;[90m# com.example.steps.LoginSteps.a_required_field_message_should_be_displayed_for_both_fields()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Sept 30, 2025 6:43:14 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Sept 30, 2025 7:38:52 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 140
-Sept 30, 2025 6:43:14 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Sept 30, 2025 7:38:52 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 140.0.7339.208. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.20.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="Login attempts using CSV (bonus)" classname="Login functionality - the-internet.herokuapp.com" time="30.918">
+  <testcase name="Login attempts using CSV (bonus)" classname="Login functionality - the-internet.herokuapp.com" time="35.581">
     <system-out><![CDATA[
 @smoke @csv
 Scenario: Login attempts using CSV (bonus)                        &amp#27;[90m# features/login.feature:32&amp#27;[0m
@@ -114,9 +113,9 @@ Scenario: Login attempts using CSV (bonus)                        &amp#27;[90m# 
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI attempt login with every row in the csv &amp#27;[0m&amp#27;[32m&amp#27;[1m"data/login.csv"&amp#27;[0m &amp#27;[90m# com.example.steps.DataDrivenSteps.i_attempt_login_with_every_row_in_the_csv(java.lang.String)&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mall csv logins should match the expected outcomes&amp#27;[0m          &amp#27;[90m# com.example.steps.DataDrivenSteps.all_csv_logins_should_match_the_expected_outcomes()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Sept 30, 2025 6:43:55 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Sept 30, 2025 7:39:40 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 140
-Sept 30, 2025 6:43:55 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Sept 30, 2025 7:39:40 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 140.0.7339.208. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.20.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 [DEBUG] Could not find #flash element. Current URL: https://the-internet.herokuapp.com/login
 [DEBUG] Page source:
@@ -246,7 +245,7 @@ WARNING: Unable to find version of CDP to use for 140.0.7339.208. You may need t
 </body></html>
 ]]></system-err>
   </testcase>
-  <testcase name="Example #1.1" classname="Examples" time="12.568">
+  <testcase name="Example #1.1" classname="Examples" time="11.539">
     <system-out><![CDATA[
 @smoke @datadriven
 Scenario Outline: Login attempts using examples                                         &amp#27;[90m# features/login.feature:27&amp#27;[0m
@@ -254,13 +253,13 @@ Scenario Outline: Login attempts using examples                                 
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user enters username &amp#27;[0m&amp#27;[32m&amp#27;[1m"tomsmith"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"SuperSecretPassword!"&amp#27;[0m          &amp#27;[90m# com.example.steps.LoginSteps.the_user_enters_username_and_password(java.lang.String,java.lang.String)&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe user should be successfully logged in and redirected to the Secure Area page&amp#27;[0m &amp#27;[90m# com.example.steps.LoginSteps.the_user_should_be_successfully_logged_in_and_redirected_to_the_secure_area_page()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Sept 30, 2025 6:43:22 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Sept 30, 2025 7:39:09 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 140
-Sept 30, 2025 6:43:22 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Sept 30, 2025 7:39:09 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 140.0.7339.208. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.20.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="Example #1.2" classname="Examples" time="7.778">
+  <testcase name="Example #1.2" classname="Examples" time="10.276">
     <system-out><![CDATA[
 @smoke @datadriven
 Scenario Outline: Login attempts using examples                         &amp#27;[90m# features/login.feature:28&amp#27;[0m
@@ -268,13 +267,13 @@ Scenario Outline: Login attempts using examples                         &amp#27;
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user enters username &amp#27;[0m&amp#27;[32m&amp#27;[1m"tomsmith"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"wrongpassword"&amp#27;[0m &amp#27;[90m# com.example.steps.LoginSteps.the_user_enters_username_and_password(java.lang.String,java.lang.String)&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32man error message &amp#27;[0m&amp#27;[32m&amp#27;[1m"Your password is invalid!"&amp#27;[0m&amp#27;[32m should be displayed&amp#27;[0m &amp#27;[90m# com.example.steps.LoginSteps.an_error_message_should_be_displayed(java.lang.String)&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Sept 30, 2025 6:43:35 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Sept 30, 2025 7:39:20 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 140
-Sept 30, 2025 6:43:35 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Sept 30, 2025 7:39:20 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 140.0.7339.208. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.20.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="Example #1.3" classname="Examples" time="12.627">
+  <testcase name="Example #1.3" classname="Examples" time="9.147">
     <system-out><![CDATA[
 @smoke @datadriven
 Scenario Outline: Login attempts using examples                                 &amp#27;[90m# features/login.feature:29&amp#27;[0m
@@ -282,9 +281,9 @@ Scenario Outline: Login attempts using examples                                 
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user enters username &amp#27;[0m&amp#27;[32m&amp#27;[1m"wronguser"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"SuperSecretPassword!"&amp#27;[0m &amp#27;[90m# com.example.steps.LoginSteps.the_user_enters_username_and_password(java.lang.String,java.lang.String)&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32man error message &amp#27;[0m&amp#27;[32m&amp#27;[1m"Your username is invalid!"&amp#27;[0m&amp#27;[32m should be displayed&amp#27;[0m         &amp#27;[90m# com.example.steps.LoginSteps.an_error_message_should_be_displayed(java.lang.String)&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Sept 30, 2025 6:43:42 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Sept 30, 2025 7:39:31 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 140
-Sept 30, 2025 6:43:42 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Sept 30, 2025 7:39:31 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 140.0.7339.208. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.20.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>

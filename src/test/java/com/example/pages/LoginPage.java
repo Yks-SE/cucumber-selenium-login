@@ -6,6 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
+import org.openqa.selenium.TimeoutException;
 
 public class LoginPage {
     private final WebDriver driver;
@@ -55,8 +56,13 @@ public class LoginPage {
     }
 
     public boolean isInSecureArea() {
-        return driver.getCurrentUrl().contains("/secure")
-                && driver.findElement(secureAreaHeader).getText().toLowerCase().contains("secure area");
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        try {
+            wait.until(ExpectedConditions.visibilityOfElementLocated(secureAreaHeader));
+            return driver.getCurrentUrl().contains("/secure");
+        } catch (TimeoutException e) {
+            return false;
+        }
     }
 
     public String getUsernameValidationMessage() {
