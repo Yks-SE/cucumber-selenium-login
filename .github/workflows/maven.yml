@@ -1,4 +1,3 @@
-
 name: CI - Cucumber Selenium Login
 
 on:
@@ -28,11 +27,10 @@ jobs:
             target/cucumber-report.html
             target/cucumber.json
             target/cucumber-html-reports/**
-
-- name: Generate Allure report
-  run: mvn -B allure:report
-- name: Upload Allure report
-  uses: actions/upload-artifact@v4
-  with:
-    name: allure-report
-    path: target/site/allure-maven-plugin/**
+      - name: Generate Allure report
+        run: mvn -B allure:report
+      - name: Upload Allure report
+        uses: actions/upload-artifact@v4
+        with:
+          name: allure-report
+          path: target/site/allure-maven-plugin/**
