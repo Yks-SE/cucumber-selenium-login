@@ -1,0 +1,1 @@
+public String getUsernameValidationMessage() {\n    WebElement usernameField = driver.findElement(By.id("username"));\n    return usernameField.getAttribute("validationMessage");\n}
